@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44056FB01C0ABB71006B21F6 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44056FAF1C0ABB71006B21F6 /* DataController.swift */; };
+		44056FB31C0AC05E006B21F6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44056FB11C0AC05E006B21F6 /* Model.xcdatamodeld */; };
+		442B9E6F1C43E93700092954 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442B9E6E1C43E93700092954 /* SurveyViewController.swift */; };
+		442B9E801C44BEAF00092954 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442B9E7D1C44BEAF00092954 /* Question.swift */; };
+		4462CC5E1C453C0F00E185C1 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4462CC5C1C453C0E00E185C1 /* Item+CoreDataProperties.swift */; };
+		4462CC5F1C453C0F00E185C1 /* Question+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4462CC5D1C453C0F00E185C1 /* Question+CoreDataProperties.swift */; };
+		44803B741C29174500517235 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44803B721C29174500517235 /* Item.swift */; };
+		44803B771C29174E00517235 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44803B761C29174E00517235 /* HomeViewController.swift */; };
+		44803B791C29175800517235 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44803B781C29175800517235 /* DetailViewController.swift */; };
 		EE7E9AC41BBA734900391478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7E9AC31BBA734900391478 /* AppDelegate.swift */; };
-		EE7E9AC61BBA734900391478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7E9AC51BBA734900391478 /* ViewController.swift */; };
 		EE7E9AC91BBA734900391478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7E9AC71BBA734900391478 /* Main.storyboard */; };
 		EE7E9ACB1BBA734900391478 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7E9ACA1BBA734900391478 /* Images.xcassets */; };
 		EE7E9ACE1BBA734900391478 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7E9ACC1BBA734900391478 /* LaunchScreen.xib */; };
@@ -27,10 +35,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44056FAB1C0ABB57006B21F6 /* Topcoder-FunSeries-SurveyApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Topcoder-FunSeries-SurveyApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		44056FAF1C0ABB71006B21F6 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		44056FB21C0AC05E006B21F6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		442B9E6E1C43E93700092954 /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SurveyViewController.swift; path = ViewControllers/SurveyViewController.swift; sourceTree = "<group>"; };
+		442B9E7D1C44BEAF00092954 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question.swift; path = DataModels/Question.swift; sourceTree = "<group>"; };
+		4462CC5C1C453C0E00E185C1 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataProperties.swift"; path = "DataModels/Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4462CC5D1C453C0F00E185C1 /* Question+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Question+CoreDataProperties.swift"; path = "DataModels/Question+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		44803B721C29174500517235 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = DataModels/Item.swift; sourceTree = "<group>"; };
+		44803B761C29174E00517235 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ViewControllers/HomeViewController.swift; sourceTree = "<group>"; };
+		44803B781C29175800517235 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ViewControllers/DetailViewController.swift; sourceTree = "<group>"; };
 		EE7E9ABE1BBA734900391478 /* Topcoder-FunSeries-SurveyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Topcoder-FunSeries-SurveyApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7E9AC21BBA734900391478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7E9AC31BBA734900391478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE7E9AC51BBA734900391478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE7E9AC81BBA734900391478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE7E9ACA1BBA734900391478 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE7E9ACD1BBA734900391478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -58,6 +75,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44803B701C29165100517235 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				4462CC5D1C453C0F00E185C1 /* Question+CoreDataProperties.swift */,
+				442B9E7D1C44BEAF00092954 /* Question.swift */,
+				4462CC5C1C453C0E00E185C1 /* Item+CoreDataProperties.swift */,
+				44803B721C29174500517235 /* Item.swift */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		44803B711C29166900517235 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				44803B781C29175800517235 /* DetailViewController.swift */,
+				44803B761C29174E00517235 /* HomeViewController.swift */,
+				442B9E6E1C43E93700092954 /* SurveyViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		EE7E9AB51BBA734900391478 = {
 			isa = PBXGroup;
 			children = (
@@ -80,10 +118,14 @@
 			isa = PBXGroup;
 			children = (
 				EE7E9AC31BBA734900391478 /* AppDelegate.swift */,
-				EE7E9AC51BBA734900391478 /* ViewController.swift */,
+				44056FAF1C0ABB71006B21F6 /* DataController.swift */,
+				44803B701C29165100517235 /* DataModels */,
+				44803B711C29166900517235 /* ViewControllers */,
 				EE7E9AC71BBA734900391478 /* Main.storyboard */,
-				EE7E9ACA1BBA734900391478 /* Images.xcassets */,
 				EE7E9ACC1BBA734900391478 /* LaunchScreen.xib */,
+				EE7E9ACA1BBA734900391478 /* Images.xcassets */,
+				44056FAB1C0ABB57006B21F6 /* Topcoder-FunSeries-SurveyApp-Bridging-Header.h */,
+				44056FB11C0AC05E006B21F6 /* Model.xcdatamodeld */,
 				EE7E9AC11BBA734900391478 /* Supporting Files */,
 			);
 			path = "Topcoder-FunSeries-SurveyApp";
@@ -218,8 +260,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7E9AC61BBA734900391478 /* ViewController.swift in Sources */,
+				44803B741C29174500517235 /* Item.swift in Sources */,
+				4462CC5F1C453C0F00E185C1 /* Question+CoreDataProperties.swift in Sources */,
+				44056FB01C0ABB71006B21F6 /* DataController.swift in Sources */,
+				442B9E6F1C43E93700092954 /* SurveyViewController.swift in Sources */,
 				EE7E9AC41BBA734900391478 /* AppDelegate.swift in Sources */,
+				442B9E801C44BEAF00092954 /* Question.swift in Sources */,
+				44056FB31C0AC05E006B21F6 /* Model.xcdatamodeld in Sources */,
+				44803B771C29174E00517235 /* HomeViewController.swift in Sources */,
+				4462CC5E1C453C0F00E185C1 /* Item+CoreDataProperties.swift in Sources */,
+				44803B791C29175800517235 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +396,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.topcoder.Topcoder-FunSeries-SurveyAppJan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Topcoder-FunSeries-SurveyApp/Topcoder-FunSeries-SurveyApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -356,9 +411,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Topcoder-FunSeries-SurveyApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.topcoder.Topcoder-FunSeries-SurveyAppJan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Topcoder-FunSeries-SurveyApp/Topcoder-FunSeries-SurveyApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -427,6 +486,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44056FB11C0AC05E006B21F6 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44056FB21C0AC05E006B21F6 /* Model.xcdatamodel */,
+			);
+			currentVersion = 44056FB21C0AC05E006B21F6 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EE7E9AB61BBA734900391478 /* Project object */;
 }
